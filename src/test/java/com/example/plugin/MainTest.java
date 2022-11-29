@@ -5,8 +5,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.logging.Level;
-
 class MainTest {
 
     private Main plugin;
@@ -24,16 +22,16 @@ class MainTest {
 
     @Test
     void onLoad() {
-        plugin.getLogger().log(Level.INFO, "onLoad");
+//        plugin.getLogger().log(Level.INFO, "onLoad");
     }
 
     @Test
     void onEnable() {
-        plugin.getLogger().log(Level.INFO, "onEnable");
+//        plugin.getLogger().log(Level.INFO, "onEnable");
     }
 
     @Test
     void onDisable() {
-        plugin.getLogger().log(Level.INFO, "onDisable");
+//        plugin.getLogger().log(Level.INFO, "onDisable");
     }
 }
