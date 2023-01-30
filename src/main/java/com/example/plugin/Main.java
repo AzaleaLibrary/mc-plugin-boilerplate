@@ -10,18 +10,18 @@ import java.io.File;
 @Plugin(name = "ExamplePlugin", version = "1.0")
 public final class Main extends JavaPlugin {
 
-    public Main() {  }
+    public Main() { }
 
     public Main(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
         super(loader, description, dataFolder, file);
     }
 
     @Override
-    public void onLoad() {  }
+    public void onLoad() { }
 
     @Override
-    public void onEnable() {  }
+    public void onEnable() { }
 
     @Override
-    public void onDisable() {  }
+    public void onDisable() { }
 }
