@@ -5,7 +5,7 @@ This is repo provides some template code for setting up a plugin with **Maven**.
 ### Defaults
 
 #### Minecraft version: `1.19`
-> ℹ️ The version can be change by updating the `mcVersion` maven property.
+> ℹ️ The version can be changed by updating the `mcVersion` maven property.
 
 ### Setup
 
